@@ -5,3 +5,11 @@
  
 a = True + 5
 print(a)
+
+
+class Person:
+    def __init__(self):
+        self.__name = 'Shaheer'
+
+person = Person()
+print(person._Person__name)

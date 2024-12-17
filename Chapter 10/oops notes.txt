@@ -1,0 +1,16 @@
+OOP:
+
+Class: Blue print hai kisi bhi program ko design karne ka
+(iske ander 2 cheezein hoti hain attirbutes aurr actions)
+
+Object: ye ek class ki makhsoos misaal hai, (mere paas ek class hai car,  honda car ya toyata car class ke obejcts hain, ye class ke specified instance hain ( specified instance ka matlab hai makhsoos misaal)(Example: If you have a class called Car, an object could be my_car, which is a specific car with its own color, speed, and brand.)
+
+Encapsulation: Ye user se details hidden rakhta hai, takay user class ke sath interact karay internal working ki parwah kiye baghair (Example: When you drive a car, you just use the steering wheel and pedals. You don�t need to know how the engine works to make the car move. The complexity is hidden from you.)
+
+Abstraction: ye users ko khali important inforamtion dikhata hai aurr unnecessary information hide rakhta hai
+(Example: When you order food in a restaurant, you just pick the meal from the menu. You don�t need to know how the chef prepares it or the recipe behind it. The details are abstracted away.)
+
+Inheritance: matlab koii cheez wirsay mein lena, new class purani class se attributes aurr actions inherit karsakti hai
+(Example: If you have a class Animal with an action move(), and a class Bird inherits from Animal, the Bird class can automatically use the move() action.)
+
+Polymorphism: iska matlab hai ke ek action different objects mein alag alag kaam karsakta hai(Example: A bird move() by flying, and a dog move() by walking. Even though both are "moving," how they move is different.)

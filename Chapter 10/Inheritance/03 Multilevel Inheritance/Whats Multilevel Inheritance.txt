@@ -1,0 +1,5 @@
+In Multilevel Inheritance, we have a chain of classes where:
+
+The top class (Living Being) gives basic traits.
+The middle class (Human) adds more specific traits.
+The bottom class (Kid) adds even more specific traits.

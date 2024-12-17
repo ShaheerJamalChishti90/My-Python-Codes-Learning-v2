@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom right, #e0eafc, #cfdef3);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container Styles */
+.container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.container:hover {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+}
+
+/* Headings */
+h1 {
+    color: #2c3e50;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #2980b9;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Input and Button Styles */
+input[type="number"], select {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;
+}
+
+input[type="number"]:focus, select:focus {
+    border-color: #2980b9;
+    outline: none;
+}
+
+/* Button Styles */
+button {
+    background: linear-gradient(to right, #3498db, #2980b9);
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+/* Output Section */
+#table-output, #calc-output {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #ecf0f1;
+    border-radius: 6px;
+    border: 1px solid #bdc3c7;
+    text-align: left;
+}
+
+/* Section Styles */
+.section {
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section:hover {
+    background-color: #d1ecf1;
+    transition: background-color 0.3s ease;
+}

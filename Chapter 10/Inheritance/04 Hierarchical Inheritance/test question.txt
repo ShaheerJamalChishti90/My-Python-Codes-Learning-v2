@@ -1,0 +1,24 @@
+Test Question: Hierarchical Inheritance
+Task:
+
+Create a base class called Vehicle that has the following methods:
+
+start(): Prints "Vehicle is starting."
+stop(): Prints "Vehicle is stopping."
+Create two subclasses that inherit from Vehicle:
+
+Car: This class should have an additional method called honk() that prints "Car is honking."
+Bike: This class should have an additional method called ring_bell() that prints "Bike bell rings."
+Create instances of both Car and Bike, and demonstrate that they can use both their own methods and the methods inherited from Vehicle.
+
+Example Output
+When you run your code, it should produce output similar to this:
+
+
+
+Vehicle is starting.
+Car is honking.
+Vehicle is stopping.
+Bike bell rings.
+Submission
+Once you’ve written your code, share it here, and I’ll review it to see if you’ve passed the test! Good luck! 🚀

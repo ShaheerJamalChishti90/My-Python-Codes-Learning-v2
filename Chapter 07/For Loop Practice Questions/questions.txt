@@ -1,0 +1,28 @@
+# Sum of Numbers: Write a Python program that calculates the sum of numbers from 1 to 100 using a for loop.
+
+# Multiplication Table: Create a Python program that prints the multiplication table for any number provided by the user (e.g., table of 5).
+
+# Factorial: Write a program that calculates the factorial of a number using a for loop. For example, factorial of 5 is 5 × 4 × 3 × 2 × 1.
+
+# List Average: Given a list of numbers, write a program that calculates and prints the average of the numbers using a for loop.
+
+# Even Numbers: Write a program that prints all the even numbers between 1 and 50 using a for loop.
+
+# Reverse a String: Write a program that reverses a string provided by the user using a for loop.
+
+# Number of Vowels: Write a program that counts the number of vowels in a string entered by the user using a for loop.
+
+# Pattern Printing: Print the following pattern using a for loop:
+
+# markdown
+# Copy code
+# *
+# **
+# ***
+# ****
+# *****
+# Sum of List: Given a list of numbers, write a program to find the sum of all the elements using a for loop.
+
+# Prime Numbers: Write a Python program to print all prime numbers between 1 and 100 using a for loop.
+
+# Let me know if you need solutions or hints for any of these!

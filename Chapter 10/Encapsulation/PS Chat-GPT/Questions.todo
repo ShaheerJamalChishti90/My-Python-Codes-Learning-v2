@@ -1,0 +1,51 @@
+☐ Beginner Level
+
+Basic Encapsulation:
+Create a Person class with private attributes __name and __age.
+Add methods to set and get the values of these attributes.
+
+Protecting Attributes:
+Create a BankAccount class with a protected attribute _balance.
+Write a method deposit(amount) to add money and withdraw(amount) to subtract money (only if there’s enough balance).
+
+Using Properties:
+Create a Car class with a private attribute __speed.
+Use a property decorator (@property and @speed.setter) to manage access to the speed.
+
+☐ Intermediate Level
+
+Inheritance and Protected Attributes:
+Create a base class Animal with a protected attribute _type.
+Create a subclass Dog that modifies _type and adds its own methods.
+
+Data Validation:
+Create a Student class with private attributes __name and __grade.
+Ensure that the grade cannot be set to a value outside the range 0-100.
+
+Encapsulation with Real-Life Context:
+    Create a ShoppingCart class with:
+    A private attribute __items (a list of items in the cart).
+    Methods add_item(item) to add items and view_cart() to display all items.
+
+☐ Advanced Level
+
+Simulating Access Control:
+    Create a SecureDocument class with:
+    A private attribute __content.
+    A method view_content(password) that allows access only if the correct password is provided.
+
+Prevent Direct Modification:
+Create a Temperature class with a private attribute __celsius.
+Write a method to convert it to Fahrenheit (get_fahrenheit()) without exposing __celsius.
+
+Encapsulation in Banking System:
+    Create a BankAccount class with:
+    Private attributes __account_number, __balance.
+    Methods deposit(), withdraw(), and get_balance().
+    Prevent overdraft withdrawals and ensure account number is read-only.
+
+Encapsulation and Error Handling: 
+    Create a Library class with:
+    A private dictionary __books to store books as {title: count}.
+    Methods to add_book(title), borrow_book(title), and return_book(title).
+    Raise errors for invalid operations (e.g., borrowing a book not available).

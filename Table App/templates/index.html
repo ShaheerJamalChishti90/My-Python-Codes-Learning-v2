@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplication Table & Calculator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Multiplication Table & Basic Calculator</h1>
+        
+        <!-- Multiplication Table Section -->
+        <div class="section">
+            <h2>Enter a Number for its Table</h2>
+            <input type="number" id="table-number" placeholder="Enter a number" />
+            <button onclick="getTable()">Generate Table</button>
+            <div id="table-output"></div>
+        </div>
+        
+        <!-- Basic Calculator Section -->
+        <div class="section">
+            <h2>Basic Calculator</h2>
+            <input type="number" id="num1" placeholder="Number 1" />
+            <input type="number" id="num2" placeholder="Number 2" />
+            <select id="operation">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+            <button onclick="calculate()">Calculate</button>
+            <div id="calc-output"></div>
+        </div>
+    </div>
+
+    <script>
+        function getTable() {
+            const number = document.getElementById('table-number').value;
+            fetch(`/table/${number}`)
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('table-output').innerHTML = data.result;
+                });
+        }
+
+        function calculate() {
+            const num1 = document.getElementById('num1').value;
+            const num2 = document.getElementById('num2').value;
+            const operation = document.getElementById('operation').value;
+            
+            const formData = new FormData();
+            formData.append('num1', num1);
+            formData.append('num2', num2);
+            formData.append('operation', operation);
+            
+            fetch('/calculate', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.error) {
+                    document.getElementById('calc-output').innerHTML = data.error;
+                } else {
+                    document.getElementById('calc-output').innerHTML = `Result: ${data.result}`;
+                }
+            });
+        }
+    </script>
+</body>
+</html>

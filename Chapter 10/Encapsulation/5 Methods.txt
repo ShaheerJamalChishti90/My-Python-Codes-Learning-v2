@@ -1,6 +1,0 @@
-5 methods in total:
-Method 1. Bots and automation tools (0:55)
-Method 2. Courses and content creation (2:27)
-Method 3. Chatbots and AI integration (4:26)
-Method 4. Algorithmic trading and financial analysis(6:18)
-Method 5. Full-stack web development (7:30)

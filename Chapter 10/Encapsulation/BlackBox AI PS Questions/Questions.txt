@@ -1,0 +1,51 @@
+Basic Level
+What is Encapsulation?
+
+Define encapsulation in the context of object-oriented programming.
+Creating a Class with Private Attributes
+
+Write a simple class Car that has a private attribute _speed. Include methods to set and get the speed.
+Using Properties
+
+Modify the Car class to use properties for getting and setting the speed instead of direct access to the private attribute.
+Access Modifiers
+
+Explain the difference between public, protected, and private attributes in Python.
+
+Intermediate Level
+Encapsulation with Getter and Setter Methods
+
+Create a class BankAccount with a private attribute _balance. Implement getter and setter methods to access and modify the balance, ensuring that the balance cannot be set to a negative value.
+Inheritance and Encapsulation
+
+Create a base class Animal with a private attribute _species. Then create a derived class Dog that tries to access the _species attribute. What happens? Explain why.
+Encapsulation in a Real-World Scenario
+
+Design a class User that has private attributes for username and password. Implement methods to change the password, ensuring that the new password meets certain criteria (e.g., minimum length).
+
+Advanced Level
+Encapsulation with Class Methods
+
+Create a class Temperature that encapsulates a temperature value in Celsius. Implement methods to convert the temperature to Fahrenheit and Kelvin, ensuring that the internal representation remains private.
+Data Validation in Setters
+
+Extend the BankAccount class from earlier to include a method that allows deposits and withdrawals, ensuring that the account balance cannot go below zero and that deposits must be positive.
+Encapsulation and Composition
+
+Create a class Library that contains a list of Book objects. Each Book should have private attributes for title and author. Implement methods in Library to add and remove books, ensuring that the internal list of books is not directly accessible from outside the class.
+Encapsulation with Decorators
+
+Implement a class Rectangle that has private attributes for length and width. Use property decorators to calculate the area and perimeter of the rectangle, ensuring that the length and width cannot be set to negative values.
+Testing Encapsulation
+
+Write unit tests for the User class you created earlier to ensure that the password can only be changed under valid conditions. Use a testing framework like unittest or pytest.
+Challenge Level
+Encapsulation with Multiple Classes
+
+Design a simple banking system with classes for Bank, Account, and Transaction. Ensure that the Account class encapsulates its balance and only allows transactions through the Transaction class.
+Custom Exceptions for Encapsulation
+
+Modify the BankAccount class to raise custom exceptions when invalid operations are attempted (e.g., withdrawing more than the balance). Create a custom exception class for this purpose.
+Reflection and Encapsulation
+
+

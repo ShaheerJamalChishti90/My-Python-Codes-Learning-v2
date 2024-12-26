@@ -8,7 +8,7 @@ Write a simple class Car that has a private attribute _speed. Include methods to
 Using Properties
 
 Modify the Car class to use properties for getting and setting the speed instead of direct access to the private attribute.
-Access Modifiers
+Access Modiddfiers
 
 Explain the difference between public, protected, and private attributes in Python.
 
@@ -24,6 +24,7 @@ Encapsulation in a Real-World Scenario
 Design a class User that has private attributes for username and password. Implement methods to change the password, ensuring that the new password meets certain criteria (e.g., minimum length).
 
 Advanced Level
+
 Encapsulation with Class Methods
 
 Create a class Temperature that encapsulates a temperature value in Celsius. Implement methods to convert the temperature to Fahrenheit and Kelvin, ensuring that the internal representation remains private.

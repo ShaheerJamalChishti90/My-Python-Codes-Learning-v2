@@ -1,0 +1,5 @@
+It means the ability to take multiple forms,
+so for instance, 
+if a parent class has a method named ABC 
+then the child class can also have that method ABC 
+having its own parameters and variables.

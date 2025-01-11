@@ -10,25 +10,30 @@
 
 # YAHAN MAINE EK EMPTY FILE CREAT KARLI
 
-my_file = open( "Empty File.txt", 'x')
-my_file.close()
+# my_file = open( "Empty File.txt", 'x')
+# my_file.close()
+
+
+mimi_file = open( "MIRA's Learning.txt", 'x') #text file 
+mimi_file.write("Hey, Im Mira from Indonesia, Im learning My SQL, BLAHHHHHHHHHHH")
+mimi_file.close() #good practice to do so
 
 # YAHAN MAINE EK FILE CREATE KARI AURR USMEIN KUCH LIKHA
 
-my_file = open('Chapter 09\My_City.txt', "w")
-my_file.write('My city name is Karachi, Its the largest city of Pakistan')
-my_file.close()
+# my_file = open('Chapter 09\My_City.txt', "w")
+# my_file.write('My city name is Karachi, Its the largest city of Pakistan')
+# my_file.close()
 
 # YAHAN MAINE USS HII FILE KE ANDER THORA SA AURR MASALA ADD KARDIA
 
-my_file = open('Chapter 09\My_City.txt', 'a')
-my_file.write('. Its situated in Sindh, Its the biggest economical power of Pakistan!')
-my_file.close()
+# my_file = open('Chapter 09\My_City.txt', 'a')
+# my_file.write('. Its situated in Sindh, Its the biggest economical power of Pakistan!')
+# my_file.close()
 
-# YAHAN MEIN USS HII FILE KO READ KARWA RAHA HOON
+# # YAHAN MEIN USS HII FILE KO READ KARWA RAHA HOON
 
-my_file = open("Chapter 09\My_City.txt", 'r')
-print(my_file.read())
+# my_file = open("Chapter 09\My_City.txt", 'r')
+# print(my_file.read())
 
 
 

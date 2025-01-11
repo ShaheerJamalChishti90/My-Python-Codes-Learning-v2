@@ -9,7 +9,7 @@ genders = ['Male', 'Male', 'Male', 'Female']
 
 
 combined = list(zip(names, ages, genders))
-# print(combined)
+print(combined)
 
-for name, age, gender in combined:
-    print(f"{gender}: {name} is {age} years old")
+# for name, age, gender in combined:
+#     print(f"{gender}: {name} is {age} years old")

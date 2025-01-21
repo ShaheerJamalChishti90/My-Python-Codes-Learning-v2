@@ -1,8 +1,8 @@
 import datetime
 
-attendance_data = {}
+attendance_data = {} #khali dictionary
 
-def attedance_record():
+def attedance_record(): 
     name = input("Enter your name: ").capitalize()
     activity = input("Enter what you did today: ").capitalize()
     date = datetime.date.today()

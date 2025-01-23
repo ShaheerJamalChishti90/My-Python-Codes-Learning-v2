@@ -4,7 +4,7 @@ from datetime import datetime
 import tkinter as tk
 from tkinter import messagebox
 
-# Function to create today's CSV file if it doesn't exist
+
 def create_today_file():
     today = datetime.now()
     file_name = f"attendance_{today.strftime('%Y-%m-%d')}_{today.strftime('%A')}.csv"
@@ -12,13 +12,13 @@ def create_today_file():
         with open(file_name, mode='w', newline='') as file:
             writer = csv.writer(file)
             writer.writerow(["Name", "Course", "Activity", "Arrival Time", "Departure Time", "Submission Timestamp"])
-        return file_name, True  # File created
-    return file_name, False  # File already exists
+        return file_name, True
+    return file_name, False  
 
-# Function to save student details into the CSV file
+
 def save_to_csv(name, course, activity, arrival, departure):
-    today_file, _ = create_today_file()  # Ensure today's file exists
-    timestamp = datetime.now().strftime('%Y-%m-%d %I:%M:%S-%p')  # Submission timestamp
+    today_file, _ = create_today_file()  
+    timestamp = datetime.now().strftime('%Y-%m-%d %I:%M:%S-%p')  
     with open(today_file, mode='a', newline='') as file:
         writer = csv.writer(file)
         writer.writerow([name, course, activity, arrival, departure, timestamp])

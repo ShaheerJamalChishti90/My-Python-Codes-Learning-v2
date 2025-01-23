@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KIT ATTENDANCE APPLICATION</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h1>KIT ATTENDANCE APPLICATION</h1>
+            <h5>Made by SHAHEER JAMAL</h5>
+            <form action="{{ url_for('submit') }}" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="course">Course:</label>
+                <input type="text" id="course" name="course" required>
+
+                <label for="activity">Activity:</label>
+                <input type="text" id="activity" name="activity" required>
+
+                <label for="arrival_time">When did you arrive?(HH:MM):</label>
+                <input type="text" id="arrival_time" name="arrival_time" required>
+
+                <label for="departure_time">When are you leaving?(HH:MM):</label>
+                <input type="text" id="departure_time" name="departure_time" required>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

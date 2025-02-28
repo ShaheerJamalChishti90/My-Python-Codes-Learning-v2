@@ -1,0 +1,10 @@
+<q1>1. Create two virtual environments, install few packages in the first one. How do you create a similar environment in the second one?
+<q1>
+
+ans: I will create a virtual environment using the following command:
+python -m venv shaheer_env1 and then I will install the packages using the following command:
+pip install numpy==1.0.0
+
+Now, I will create a similar environment in the second one using the following command:
+python -m venv shaheer_env2 and then I will install the packages using the following command:
+pip install -r requirements.txt

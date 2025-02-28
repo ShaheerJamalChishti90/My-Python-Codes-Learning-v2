@@ -1,0 +1,9 @@
+song = c.lower().split(" ")[1]
+
+lets say you speak: play daihalima
+
+play daihalima ==> c.lower()
+
+["play", "daihalima"] ==> .split(" ")
+
+[1] ==> then it will access the index 1 which is "daihalima" 

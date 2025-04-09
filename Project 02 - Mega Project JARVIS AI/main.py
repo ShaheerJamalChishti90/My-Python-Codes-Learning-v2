@@ -45,7 +45,7 @@ if __name__ == "__main__":
                 audio = r.listen(source, timeout=2, phrase_time_limit=1) # Listen for the audio via the microphone
             
             word = r.recognize_google(audio) # Use the google speech recognition service
-            if(word.lower() == "america"):
+            if(word.lower() == "python"):
                 print(f"You said: {word}") # Print the command to the console
                 print("Ya")
                 speak("Ya")

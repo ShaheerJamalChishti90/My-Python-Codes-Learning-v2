@@ -7,3 +7,5 @@ play daihalima ==> c.lower()
 ["play", "daihalima"] ==> .split(" ")
 
 [1] ==> then it will access the index 1 which is "daihalima" 
+
+9:52:12

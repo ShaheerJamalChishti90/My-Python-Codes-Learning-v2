@@ -68,3 +68,15 @@ factorial = 1
 
 The factorial of num is: 120
 '''
+
+
+factorial_number = int(input("Enter a number: "))
+initial_factorial = 1
+# for i in range(1, factorial_number):
+#     factorial_number *= i
+#     i += 1
+# print(f"The factorial is: {factorial_number}")
+
+for i in range(1, factorial_number + 1):
+    initial_factorial *= i
+print(f"The factorial {factorial_number} is: {initial_factorial}")

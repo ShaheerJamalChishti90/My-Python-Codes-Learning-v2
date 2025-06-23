@@ -1,0 +1,5 @@
+The quick brown fox jumps over the lazy dog.
+Typing fast is a useful skill.
+Python is an easy and fun language.
+Practice makes perfect.
+Never give up on learning.

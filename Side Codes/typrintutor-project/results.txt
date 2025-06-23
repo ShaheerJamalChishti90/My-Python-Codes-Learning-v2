@@ -1,0 +1,20 @@
+Sentence: The quick brown fox jumps over the lazy dog.
+Typed: the quick brown fox jumps over the lazy dog
+Time: 19.81 sec | Accuracy: 77.78%
+
+Sentence: Python is an easy and fun language.
+Typed: python id fun lanua
+Time: 7.22 sec | Accuracy: 0.0%
+
+Sentence: Never give up on learning.
+Typed: never give up on learning
+Time: 16.02 sec | Accuracy: 60.0%
+
+Sentence: The quick brown fox jumps over the lazy dog.
+Typed: The quick brown fox jumps over the lazy dog
+Time: 1750690687.23 sec | Accuracy: 88.89%
+
+Sentence: The quick brown fox jumps over the lazy dog.
+Typed: The quick brown fox jumps over the lazy dog
+Time: 13.82 sec | Accuracy: 88.89%
+

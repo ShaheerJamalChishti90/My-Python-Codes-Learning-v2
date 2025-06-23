@@ -1,0 +1,4 @@
+Sentence: Keep calm and code on.
+Typed: Keep calm and code on.
+Time: 9.94 sec | Accuracy: 100.0%
+

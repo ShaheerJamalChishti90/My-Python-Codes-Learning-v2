@@ -1,0 +1,5 @@
+The quick brown fox jumps over the lazy dog.
+Practice makes perfect.
+Python is fun and powerful.
+Keep calm and code on.
+Hello world!

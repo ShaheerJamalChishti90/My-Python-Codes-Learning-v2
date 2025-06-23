@@ -2,3 +2,28 @@ Sentence: Keep calm and code on.
 Typed: Keep calm and code on.
 Time: 9.94 sec | Accuracy: 100.0%
 
+Sentence: Hello world!
+Typed: Hellow world!
+Time: 8.43 sec
+Accuracy: 50.0%
+
+Sentence: Keep calm and code on.
+Typed: Keep calm and code on.
+Time: 4.11 sec
+Accuracy: 100.0%
+
+Sentence: Practice makes perfect.
+Typed: Practice makes perfect.
+Time: 10.54 sec
+Accuracy: 100.0%
+
+Sentence: The quick brown fox jumps over the lazy dog.
+Typed: The quick brown fox jumps over the lazy dog.
+Time: 11.25 sec
+Accuracy: 100.0%
+
+Sentence: Keep calm and code on.
+Typed: Keep calm and code on.
+Time: 9.83 sec
+Accuracy: 100.0%
+

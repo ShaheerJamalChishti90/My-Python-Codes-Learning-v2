@@ -27,3 +27,8 @@ Typed: Keep calm and code on.
 Time: 9.83 sec
 Accuracy: 100.0%
 
+Sentence: Practice makes perfect.
+Typed: Practice makes perfect.
+Time: 6.9 sec
+Accuracy: 100.0%
+

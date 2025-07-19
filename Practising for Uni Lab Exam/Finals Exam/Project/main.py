@@ -35,7 +35,53 @@ def sort_students():
         sorted_marks.append(i['Marks'])
     print(f"Here are the sorted marks of all Students: {sorted(sorted_marks)}")
 
+def change_student_info():
+    student_roll = int(input("Enter the student Roll No: "))
+    for i in all_students:
+        if i['Roll#'] == student_roll:
+            print("1-Name\n2-Roll#\n3-Age\n4-Marks")
+            user_choice = int(input("Enter your choice here: "))
+            if user_choice == 1:
+                name = input("Enter the name here: ")
+                i["Name"] = name 
+            elif user_choice == 2:
+                roll = int(input("Enter the roll here: "))
+                i["Roll#"] = roll 
+            elif user_choice == 3:
+                age = int(input("Enter the age here: "))
+                i["Age"] = age 
+            elif user_choice == 4:
+                marks = int(input("Enter the marks here: "))
+                i["Marks"] = marks 
+            else:
+                print("Invalid Entry")
+                break
+                
+def delete_student():
+    student_roll = int(input("Enter the student Roll No you wanna delete: "))
+    for i in all_students:
+        if student_roll == i["Roll#"]:
+            all_students.remove(i)
+        else:
+            print("Invalid Entry!")
 
+def load_data_into_file():
+    with open("./Project/Students_Record.txt", "a") as f:
+        for i in all_students:
+            f.write(str(i))
+        print("Data has been loaded successfully into a file!")
+
+def read_data():
+    with open("./Project/Students_Record.txt", "r") as f:
+        print(f.read())
+        
+def average_marks_grades():
+    for i in all_students:
+        if i["Marks"] > 50:
+            print(f"{i["Name"]}: Pass")
+        else:
+            print(f"{i["Name"]}: Fail")
+            
 
 while True:
     try:
@@ -59,6 +105,22 @@ while True:
         
     elif user_choice == 4:
         sort_students()
+        
+    elif user_choice == 5:
+        change_student_info()
+
+    elif user_choice == 6:
+        delete_student()
+        
+    elif user_choice == 7:
+        load_data_into_file()
+        
+    elif user_choice == 8:
+        read_data()
+        
+    elif user_choice == 9:
+        average_marks_grades()
+        
     else:
         print("This option is not available yet.\n")
         

@@ -10,13 +10,13 @@ Menu Options:
 ☐ 
 ✔ Sort students by marks or name @done(25-07-20 00:27)
 ☐ 
-☐ Update a student’s info
+✔ Update a student’s info @done(25-07-20 01:06)
 ☐ 
-☐ Delete a student
+✔ Delete a student @done(25-07-20 01:46)
 ☐ 
-☐ Save all student data to a file
+✔ Save all student data to a file @done(25-07-20 01:58)
 ☐ 
-☐ Load student data from the file
+✔ Load student data from the file @done(25-07-20 02:06)
 ☐ 
 ☐ Show average marks and grade calculation
 ☐ 

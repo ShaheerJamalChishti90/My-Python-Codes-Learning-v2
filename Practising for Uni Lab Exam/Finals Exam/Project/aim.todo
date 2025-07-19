@@ -1,0 +1,23 @@
+Project Description:
+Create a menu-driven Student Management System where the user can:
+
+Menu Options:
+✔ Add new student (store name, roll number, age, marks, etc.) @done(25-07-19 17:04)
+
+✔ Display all students @done(25-07-19 17:04)
+☐ 
+✔ Search student by roll number or name @done(25-07-19 17:28)
+☐ 
+☐ Sort students by marks or name
+☐ 
+☐ Update a student’s info
+☐ 
+☐ Delete a student
+☐ 
+☐ Save all student data to a file
+☐ 
+☐ Load student data from the file
+☐ 
+☐ Show average marks and grade calculation
+☐ 
+☐ Exit
